@@ -1,0 +1,29 @@
+/*.max-height {
+  height: 100%;
+}
+*/
+.circular-crop {
+  width: 9vw;
+  height: 9vw;
+  min-width: 90px;
+  min-height: 90px;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  background: #ccc no-repeat center;
+  background-size: cover;
+}
+
+.headshot {
+  background-image: url(../img/mugshot.jpeg);
+}
+
+.bg-light-gray {
+  background-color: #222222;
+}
+
+@media print {
+  .do-not-print {
+    display: none;
+  }
+}
