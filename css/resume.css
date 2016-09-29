@@ -26,4 +26,7 @@
   .do-not-print {
     display: none;
   }
+  .avoid-page-break-inside {
+    page-break-inside: avoid;
+  }
 }
